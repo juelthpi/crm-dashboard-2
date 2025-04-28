@@ -677,6 +677,7 @@ input[type="checkbox"]:checked {
   font-size:22px;
 }
 .unchecked-value i{
+  font-size:22px;
   color:var(--dark-light);
 }
 .status-icon-checked i{

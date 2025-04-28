@@ -704,6 +704,10 @@ input[type="checkbox"]:checked {
 .client-table tr td,.client-table tr th{
   border: 1px solid #9f8cfc25;
 }
+.client-table tr td p{
+  font-size: 15px;
+  line-height: 20px;
+}
 .client-table{
   margin-top: 30px;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;

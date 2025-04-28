@@ -1,0 +1,1268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NextBit CRM</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+  </head>
+  <body>
+    <section class="dashboard-header-area">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-12">
+            <div
+              class="dashboard-header d-flex align-items-center justify-content-between flex-wrap"
+            >
+              <div class="dashboard-logo d-flex align-items-center g-10">
+                <img
+                  src="assets/images/icon/icon-dark.webp"
+                  alt="logo"
+                  class="logo"
+                />
+                <h6>CRM Dashboard</h6>
+                <span class="mobile-bar"
+                  ><i class="fa-solid fa-bars-staggered"></i
+                ></span>
+              </div>
+              <div class="header-nav">
+                <ul class="d-flex align-items-center">
+                  <div class="mobile-logo">
+                    <img
+                      src="assets/images/icon/icon-dark.webp"
+                      alt="logo"
+                      class="logo"
+                    />
+                  </div>
+                  <li>
+                    <a href="#" class="single-text"
+                      ><svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="h-4 w-4"
+                      >
+                        <path d="M3 3v18h18"></path>
+                        <path d="M18 17V9"></path>
+                        <path d="M13 17V5"></path>
+                        <path d="M8 17v-3"></path>
+                      </svg>
+                      Dashboard</a
+                    >
+                  </li>
+                  <li>
+                    <a href="leads.html" class="single-text active"
+                      ><svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="h-4 w-4"
+                      >
+                        <path
+                          d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"
+                        ></path>
+                        <circle cx="9" cy="7" r="4"></circle>
+                        <path d="M22 21v-2a4 4 0 0 0-3-3.87"></path>
+                        <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                      </svg>
+                      Leads</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" class="single-text"
+                      ><svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="h-4 w-4"
+                      >
+                        <path
+                          d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"
+                        ></path>
+                        <circle cx="12" cy="12" r="3"></circle>
+                      </svg>
+                      Prospecting
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="single-text"
+                      ><svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="h-4 w-4"
+                      >
+                        <rect
+                          width="18"
+                          height="18"
+                          x="3"
+                          y="4"
+                          rx="2"
+                          ry="2"
+                        ></rect>
+                        <line x1="16" x2="16" y1="2" y2="6"></line>
+                        <line x1="8" x2="8" y1="2" y2="6"></line>
+                        <line x1="3" x2="21" y1="10" y2="10"></line>
+                      </svg>
+                      Tasks</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" class="single-text"
+                      ><svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="h-4 w-4"
+                      >
+                        <rect
+                          width="18"
+                          height="18"
+                          x="3"
+                          y="4"
+                          rx="2"
+                          ry="2"
+                        ></rect>
+                        <line x1="16" x2="16" y1="2" y2="6"></line>
+                        <line x1="8" x2="8" y1="2" y2="6"></line>
+                        <line x1="3" x2="21" y1="10" y2="10"></line>
+                      </svg>
+                      Meetings</a
+                    >
+                  </li>
+                  <li>
+                    <a href="user.html" class="single-text"
+                      ><svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="h-4 w-4"
+                      >
+                        <path
+                          d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"
+                        ></path>
+                        <circle cx="12" cy="7" r="4"></circle>
+                      </svg>
+                      Users</a
+                    >
+                  </li>
+                  <li>
+                    <a href="all-settings.html" class="single-text"
+                      ><svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="w-4 h-4 mr-2"
+                      >
+                        <path
+                          d="M12.22 2h-.44a2 2 0 0 0-2 2v.18a2 2 0 0 1-1 1.73l-.43.25a2 2 0 0 1-2 0l-.15-.08a2 2 0 0 0-2.73.73l-.22.38a2 2 0 0 0 .73 2.73l.15.1a2 2 0 0 1 1 1.72v.51a2 2 0 0 1-1 1.74l-.15.09a2 2 0 0 0-.73 2.73l.22.38a2 2 0 0 0 2.73.73l.15-.08a2 2 0 0 1 2 0l.43.25a2 2 0 0 1 1 1.73V20a2 2 0 0 0 2 2h.44a2 2 0 0 0 2-2v-.18a2 2 0 0 1 1-1.73l.43-.25a2 2 0 0 1 2 0l.15.08a2 2 0 0 0 2.73-.73l.22-.39a2 2 0 0 0-.73-2.73l-.15-.08a2 2 0 0 1-1-1.74v-.5a2 2 0 0 1 1-1.74l.15-.09a2 2 0 0 0 .73-2.73l-.22-.38a2 2 0 0 0-2.73-.73l-.15.08a2 2 0 0 1-2 0l-.43-.25a2 2 0 0 1-1-1.73V4a2 2 0 0 0-2-2z"
+                        ></path>
+                        <circle cx="12" cy="12" r="3"></circle>
+                      </svg>
+                      Settings</a
+                    >
+                  </li>
+                </ul>
+              </div>
+
+              <div class="dropdown">
+                <div
+                  class="user-icon d-flex align-items-center g-5 dropdown-toggle"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <img src="assets/images/icon/user.png" alt="icon" />
+                  <p>Hello,Tester</p>
+                </div>
+
+                <ul class="dropdown-menu">
+                  <li>
+                    <div class="d-flex align-items-center g-10">
+                      <a href="#"
+                        ><i class="fa-solid fa-square-pen"></i> Password
+                        Change</a
+                      >
+                    </div>
+                  </li>
+                  <li>
+                    <div class="d-flex align-items-center g-10">
+                      <a href="#"
+                        ><i class="fa-solid fa-file-pen"></i> Edit Profile</a
+                      >
+                    </div>
+                  </li>
+                  <li>
+                    <div class="d-flex align-items-center g-10">
+                      <a href="#"
+                        ><i class="fa-solid fa-arrow-right-from-bracket"></i>
+                        item</a
+                      >
+                    </div>
+                  </li>
+                  <li>
+                    <div class="d-flex align-items-center g-10">
+                      <a href="#"
+                        ><i class="fa-solid fa-arrow-right-from-bracket"></i>
+                        item</a
+                      >
+                    </div>
+                  </li>
+                  <li>
+                    <div class="d-flex align-items-center g-10">
+                      <a href="#"
+                        ><i class="fa-solid fa-arrow-right-from-bracket"></i>
+                        LogOut</a
+                      >
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="dashboard-body">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-12">
+           
+            <div
+              class="d-flex flex-wrap align-items-center justify-content-between g-10 mt-3"
+            >
+              <h6 class="title">Web Leads</h6>
+              
+            </div>
+            <!-- inner body -->
+            <div class="white-box mt-3">
+               <div class="row gy-3">
+                <div class="col-xl-3 col-md-6">
+                  <div class="card-1 d-flex align-items-center g-10">
+                    <span>281</span>
+                    <h6>Leads</h6>
+                  </div>
+                </div>
+                <div class="col-xl-3 col-md-6">
+                  <div class="card-1 d-flex align-items-center g-10">
+                    <span>2</span>
+                    <h6>Pending</h6>
+                  </div>
+                </div>
+                <div class="col-xl-3 col-md-6">
+                  <div class="card-1 d-flex align-items-center g-10">
+                    <span>789</span>
+                    <h6>Attempts</h6>
+                  </div>
+                </div>
+                <div class="col-xl-3 col-md-6">
+                  <div class="card-1 d-flex align-items-center g-10">
+                    <span>281</span>
+                    <h6>Reached</h6>
+                  </div>
+                </div>
+               </div>
+               <div class="row row-cols-1 row-cols-md-3 row-cols-xl-5 g-3 mt-2">
+                <div class="col">
+                  <div class="info-card border-color-5e">
+                    <ul class="d-flex align-items-center justify-content-between">
+                      <li>17m</li>
+                      <li class="info-card-icon bg-ea"><i class="text-b4 fa-solid fa-hourglass-start"></i></li>
+                    </ul>
+                    <div class="info-card-bottom d-flex align-items-center justify-content-between mt-2">
+                      <p>Average Response Time</p>
+                    </div>
+                    
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="info-card border-color-06">
+                    <ul class="d-flex align-items-center justify-content-between">
+                      <li>91 <span class="sub-text">(32%)</span></li>
+                      <li class="info-card-icon bg-EB"><i class="text-41 fa-solid fa-calendar-days"></i></li>
+                    </ul>
+                    <div class="info-card-bottom d-flex align-items-center justify-content-between mt-2">
+                      <p>Appointments</p>
+                      <div class="form-check form-switch">
+                        <input class="form-check-input custom-switch" type="checkbox" id=" " checked>
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="info-card border-color-06">
+                    <ul class="d-flex align-items-center justify-content-between">
+                      <li>92 <span class="sub-text">(79%)</span></li>
+                      <li class="info-card-icon bg-EB"><i class="text-41 fas fa-walking"></i>
+                      </li>
+                    </ul>
+                    <div class="info-card-bottom d-flex align-items-center justify-content-between mt-2">
+                      <p>Visits</p>
+                      <div class="form-check form-switch">
+                        <input class="form-check-input custom-switch" type="checkbox" id=" " >
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="info-card border-color-06">
+                    <ul class="d-flex align-items-center justify-content-between">
+                      <li>42 <span class="sub-text">(14%)</span></li>
+                      <li class="info-card-icon bg-EB"><i class="text-41 fa-solid fa-sack-dollar"></i>
+                      </li>
+                    </ul>
+                    <div class="info-card-bottom d-flex align-items-center justify-content-between mt-2">
+                      <p>Sales</p>
+                      <div class="form-check form-switch">
+                        <input class="form-check-input custom-switch" type="checkbox" id=" " >
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="info-card border-color-39">
+                    <ul class="d-flex align-items-center justify-content-between">
+                      <li>42 <span class="sub-text">(14%)</span></li>
+                      <li class="info-card-icon bg-EB"><i class="text-418 fa-solid fa-truck"></i>
+                      </li>
+                    </ul>
+                    <div class="info-card-bottom d-flex align-items-center justify-content-between mt-2">
+                      <p>Delivered Vehicles</p>
+                      <div class="form-check form-switch">
+                        <input class="form-check-input custom-switch" type="checkbox" id=" " >
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+               </div>
+               <div class="row">
+                <div class="col-md-12">
+                  <div class="client-table">
+                    <h6 class="title-sm p-2 d-flex align-items-center g-10 mb-2">Client Info<i class="fa-solid fa-square-plus"></i></h6>
+                    <div class="table-responsive">
+                      <table class="table m-0">
+                        <thead>
+                          <tr>
+                            <th>Clients</th>
+                            <th>Contact</th>
+                            <th>Date</th>
+                            <th>Division</th>
+                            <th>Status</th>
+                            <th>Result</th>
+                            <th>Type</th>
+                            <th>Advisor</th>
+                            <th>BDC Agent</th>
+                            <th>Model</th>
+                            <th>Year</th>
+                            <th>Appt</th>
+                            <th>Visit</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                         <tr>
+                          <td>
+                            <div class="form-group w-100 position-relative">
+                              <select class="form-control">
+                                <option>Filter</option>
+                                <option>Jason Baker</option>
+                                <option>Lukas Barber</option>
+                                <option>User</option>
+                              </select>
+                              <span class="angle"
+                                ><i class="fa-solid fa-angle-down"></i
+                              ></span>
+                            </div>               
+                          </td>
+                          <td>
+                            <div class="form-group w-100 position-relative">
+                              <select class="form-control">
+                                <option>Contact</option>
+                                <option>Contact</option>
+                              </select>
+                              <span class="angle"
+                                ><i class="fa-solid fa-angle-down"></i
+                              ></span>
+                            </div>               
+                          </td>
+                          <td>
+                            <div class="form-group w-100 position-relative">
+                              <select class="form-control">
+                                <option>Filter</option>
+                              </select>
+                              <span class="angle"
+                                ><i class="fa-solid fa-angle-down"></i
+                              ></span>
+                            </div>               
+                          </td>
+                          <td>
+                            <div class="form-group w-100 position-relative">
+                              <select class="form-control">
+                                <option>New</option>
+                                <option>New</option>
+                              </select>
+                              <span class="angle"
+                                ><i class="fa-solid fa-angle-down"></i
+                              ></span>
+                            </div>               
+                          </td>
+                          <td>
+                            <div class="form-group w-100 position-relative">
+                              <select class="form-control">
+                                <option>Active</option>
+                                <option>Inactive</option>
+                              </select>
+                              <span class="angle"
+                                ><i class="fa-solid fa-angle-down"></i
+                              ></span>
+                            </div>               
+                          </td>
+                          <td>
+                            <div class="form-group w-100 position-relative">
+                              <select class="form-control">
+                                <option>Reached</option>
+                                <option>Attempted</option>
+                              </select>
+                              <span class="angle"
+                                ><i class="fa-solid fa-angle-down"></i
+                              ></span>
+                            </div>               
+                          </td>
+                          <td>
+                            <div class="form-group w-100 position-relative">
+                              <select class="form-control">
+                                <option>Web Lead</option>
+                                <option>Web Lead</option>
+                              </select>
+                              <span class="angle"
+                                ><i class="fa-solid fa-angle-down"></i
+                              ></span>
+                            </div>               
+                          </td>
+                          <td>
+                            <div class="form-group w-100 position-relative">
+                              <select class="form-control">
+                                <option>LincoIn</option>
+                                <option>Andrew</option>
+                              </select>
+                              <span class="angle"
+                                ><i class="fa-solid fa-angle-down"></i
+                              ></span>
+                            </div>               
+                          </td>
+                          <td>
+                            <div class="form-group w-100 position-relative">
+                              <select class="form-control">
+                                <option>Brandon</option>
+                                <option>Sara</option>
+                              </select>
+                              <span class="angle"
+                                ><i class="fa-solid fa-angle-down"></i
+                              ></span>
+                            </div>               
+                          </td>
+                          <td>
+                            <div class="form-group w-100 position-relative">
+                              <select class="form-control">
+                                <option>Accord</option>
+                                <option>Civic</option>
+                              </select>
+                              <span class="angle"
+                                ><i class="fa-solid fa-angle-down"></i
+                              ></span>
+                            </div>               
+                          </td>
+                          <td>
+                            <div class="form-group w-100 position-relative">
+                              <select class="form-control">
+                                <option>2025</option>
+                                <option>2024</option>
+                              </select>
+                              <span class="angle"
+                                ><i class="fa-solid fa-angle-down"></i
+                              ></span>
+                            </div>               
+                          </td>
+                          <td>
+                            <div class="form-group w-100 position-relative">
+                              <select class="form-control">
+                                <option>Checked</option>
+                                <option>Unchecked</option>
+                              </select>
+                              <span class="angle"
+                                ><i class="fa-solid fa-angle-down"></i
+                              ></span>
+                            </div>               
+                          </td>
+                          <td>
+                            <div class="form-group w-100 position-relative">
+                              <select class="form-control">
+                                <option>Visited</option>
+                                <option>Unvisited</option>
+                              </select>
+                              <span class="angle"
+                                ><i class="fa-solid fa-angle-down"></i
+                              ></span>
+                            </div>               
+                          </td>
+                         </tr>
+                         <tr>
+                          <td class="text-center">
+                            <p class="client-name">Jason Baker</p>
+                          </td>
+                          <td>
+                            <ul class="d-flex align-items-center g-10 justify-content-center">
+                              <li class="pointer" data-bs-toggle="modal"
+                              data-bs-target="#phone"><i class="text-41 fa-solid fa-phone"></i></li>
+                              <li class="pointer" data-bs-toggle="modal"
+                              data-bs-target="#email"><i class="text-41 fa-solid fa-envelope"></i></li>
+                              <li class="pointer" data-bs-toggle="modal"
+                              data-bs-target="#messenger"><i class="text-e4b fa-solid fa-comment-dots"></i></li>
+                              <li class="pointer" data-bs-toggle="modal"
+                              data-bs-target="#video"><i class="text-b4 fa-solid fa-video"></i></li>
+                            </ul>
+                          </td>
+                          <td class="text-center">
+                            <p>04 May 2024</p>
+                            <p>09:21 AM</p>
+                          </td>
+                          <td class="text-center">
+                            Unused
+                          </td>
+                          <td class="text-center">
+                            <span class="status-icon-unchecked"><i class="fa-solid fa-circle-xmark"></i></span>
+                          </td>
+                          <td class="text-center">
+                            <span class="badge active-badge">Reached</span>
+                          </td>
+                          <td class="text-center">
+                            <p>Andrew</p>
+                          </td>
+                          <td class="text-center">
+                            <p>Brandon</p>
+                          </td>
+                          <td class="text-center">
+                            <p>Accord</p>
+                          </td>
+                          <td class="text-center">
+                            <p>Accord</p>
+                          </td>
+                          <td class="text-center">
+                            <p>2025</p>
+                          </td>
+                          <td class="text-center">
+                            <p class="checked-value"><i class="fa-solid fa-square-check"></i></p>
+                          </td>
+                          <td class="text-center">
+                            <p class="unchecked-value"><i class="fa-solid fa-square"></i></p>
+                          </td>
+                         </tr>
+                         <tr>
+                          <td class="text-center">
+                            <p class="client-name">Lukas Barber</p>
+                          </td>
+                          <td>
+                            <ul class="d-flex align-items-center g-10 justify-content-center">
+                              <li class="pointer" data-bs-toggle="modal"
+                              data-bs-target="#phone"><i class="text-41 fa-solid fa-phone"></i></li>
+                              <li class="pointer" data-bs-toggle="modal"
+                              data-bs-target="#email"><i class="text-41 fa-solid fa-envelope"></i></li>
+                              <li class="pointer" data-bs-toggle="modal"
+                              data-bs-target="#messenger"><i class="text-e4b fa-solid fa-comment-dots"></i></li>
+                              <li class="pointer" data-bs-toggle="modal"
+                              data-bs-target="#video"><i class="text-b4 fa-solid fa-video"></i></li>
+                            </ul>
+                          </td>
+                          <td class="text-center">
+                            <p>04 May 2024</p>
+                            <p>09:21 AM</p>
+                          </td>
+                          <td class="text-center">
+                            Unused
+                          </td>
+                          <td class="text-center">
+                            <span class="status-icon-checked"><i class=" fa-solid fa-circle-check"></i></span>
+                          </td>
+                          <td class="text-center">
+                            <span class="badge active-badge">Reached</span>
+                          </td>
+                          <td class="text-center">
+                            <p>Andrew</p>
+                          </td>
+                          <td class="text-center">
+                            <p>Brandon</p>
+                          </td>
+                          <td class="text-center">
+                            <p>Accord</p>
+                          </td>
+                          <td class="text-center">
+                            <p>Accord</p>
+                          </td>
+                          <td class="text-center">
+                            <p>2025</p>
+                          </td>
+                          <td class="text-center">
+                            <p class="checked-value"><i class="fa-solid fa-square-check"></i></p>
+                          </td>
+                          <td class="text-center">
+                            <p class="checked-value"><i class="fa-solid fa-square-check"></i></p>
+                          </td>
+                         </tr>
+                         <tr>
+                          <td class="text-center">
+                            <p class="client-name">Lukas Barber</p>
+                          </td>
+                          <td>
+                            <ul class="d-flex align-items-center g-10 justify-content-center">
+                              <li class="pointer" data-bs-toggle="modal"
+                              data-bs-target="#phone"><i class="text-41 fa-solid fa-phone"></i></li>
+                              <li class="pointer" data-bs-toggle="modal"
+                              data-bs-target="#email"><i class="text-41 fa-solid fa-envelope"></i></li>
+                              <li class="pointer" data-bs-toggle="modal"
+                              data-bs-target="#messenger"><i class="text-e4b fa-solid fa-comment-dots"></i></li>
+                              <li class="pointer" data-bs-toggle="modal"
+                              data-bs-target="#video"><i class="text-b4 fa-solid fa-video"></i></li>
+                            </ul>
+                          </td>
+                          <td class="text-center">
+                            <p>04 May 2024</p>
+                            <p>09:21 AM</p>
+                          </td>
+                          <td class="text-center">
+                            Unused
+                          </td>
+                          <td class="text-center">
+                            <span class="status-icon-checked"><i class=" fa-solid fa-circle-check"></i></span>
+                          </td>
+                          <td class="text-center">
+                            <div class="form-group form-group-sm w-100 position-relative">
+                              <select class="form-control" >
+                                <option>Attempted</option>
+                                <option>Attempted</option>
+                                <option>Attempted</option>
+                              </select>
+                              <span class="angle"
+                                ><i class="fa-solid fa-angle-down"></i
+                              ></span>
+                            </div>
+                            <ul class="d-flex align-items-center justify-content-center g-10 mt-1">
+                              <li class="w-50 bg-EB">60 m</li>
+                              <li class="w-50 bg-EB">6 m</li>
+                            </ul>
+                          </td>
+                          <td class="text-center">
+                            <p>Andrew</p>
+                          </td>
+                          <td class="text-center">
+                            <p>Brandon</p>
+                          </td>
+                          <td class="text-center">
+                            <p>Accord</p>
+                          </td>
+                          <td class="text-center">
+                            <p>Accord</p>
+                          </td>
+                          <td class="text-center">
+                            <p>2025</p>
+                          </td>
+                          <td class="text-center">
+                            <p class="unchecked-value"><i class="fa-solid fa-square"></i></p>
+                          </td>
+                          <td class="text-center">
+                            <p class="unchecked-value"><i class="fa-solid fa-square"></i></p>
+                          </td>
+                         </tr>
+                         
+                         <tr>
+                          <td class="text-center">
+                            <p class="client-name">Jason Baker</p>
+                          </td>
+                          <td>
+                            <ul class="d-flex align-items-center g-10 justify-content-center">
+                              <li class="pointer" data-bs-toggle="modal"
+                              data-bs-target="#phone"><i class="text-41 fa-solid fa-phone"></i></li>
+                              <li class="pointer" data-bs-toggle="modal"
+                              data-bs-target="#email"><i class="text-41 fa-solid fa-envelope"></i></li>
+                              <li class="pointer" data-bs-toggle="modal"
+                              data-bs-target="#messenger"><i class="text-e4b fa-solid fa-comment-dots"></i></li>
+                              <li class="pointer" data-bs-toggle="modal"
+                              data-bs-target="#video"><i class="text-b4 fa-solid fa-video"></i></li>
+                            </ul>
+                          </td>
+                          <td class="text-center">
+                            <p>04 May 2024</p>
+                            <p>09:21 AM</p>
+                          </td>
+                          <td class="text-center">
+                            Unused
+                          </td>
+                          <td class="text-center">
+                            <span class="status-icon-unchecked"><i class="fa-solid fa-circle-xmark"></i></span>
+                          </td>
+                          <td class="text-center">
+                            <span class="badge active-badge">Reached</span>
+                          </td>
+                          <td class="text-center">
+                            <p>Andrew</p>
+                          </td>
+                          <td class="text-center">
+                            <p>Brandon</p>
+                          </td>
+                          <td class="text-center">
+                            <p>Accord</p>
+                          </td>
+                          <td class="text-center">
+                            <p>Accord</p>
+                          </td>
+                          <td class="text-center">
+                            <p>2025</p>
+                          </td>
+                          <td class="text-center">
+                            <p class="checked-value"><i class="fa-solid fa-square-check"></i></p>
+                          </td>
+                          <td class="text-center">
+                            <p class="unchecked-value"><i class="fa-solid fa-square"></i></p>
+                          </td>
+                         </tr>
+                         <tr>
+                          <td class="text-center">
+                            <p class="client-name">Lukas Barber</p>
+                          </td>
+                          <td>
+                            <ul class="d-flex align-items-center g-10 justify-content-center">
+                              <li class="pointer" data-bs-toggle="modal"
+                              data-bs-target="#phone"><i class="text-41 fa-solid fa-phone"></i></li>
+                              <li class="pointer" data-bs-toggle="modal"
+                              data-bs-target="#email"><i class="text-41 fa-solid fa-envelope"></i></li>
+                              <li class="pointer" data-bs-toggle="modal"
+                              data-bs-target="#messenger"><i class="text-e4b fa-solid fa-comment-dots"></i></li>
+                              <li class="pointer" data-bs-toggle="modal"
+                              data-bs-target="#video"><i class="text-b4 fa-solid fa-video"></i></li>
+                            </ul>
+                          </td>
+                          <td class="text-center">
+                            <p>04 May 2024</p>
+                            <p>09:21 AM</p>
+                          </td>
+                          <td class="text-center">
+                            Unused
+                          </td>
+                          <td class="text-center">
+                            <span class="status-icon-checked"><i class=" fa-solid fa-circle-check"></i></span>
+                          </td>
+                          <td class="text-center">
+                            <span class="badge active-badge">Reached</span>
+                          </td>
+                          <td class="text-center">
+                            <p>Andrew</p>
+                          </td>
+                          <td class="text-center">
+                            <p>Brandon</p>
+                          </td>
+                          <td class="text-center">
+                            <p>Accord</p>
+                          </td>
+                          <td class="text-center">
+                            <p>Accord</p>
+                          </td>
+                          <td class="text-center">
+                            <p>2025</p>
+                          </td>
+                          <td class="text-center">
+                            <p class="checked-value"><i class="fa-solid fa-square-check"></i></p>
+                          </td>
+                          <td class="text-center">
+                            <p class="checked-value"><i class="fa-solid fa-square-check"></i></p>
+                          </td>
+                         </tr>
+                         <tr>
+                          <td class="text-center">
+                            <p class="client-name">Lukas Barber</p>
+                          </td>
+                          <td>
+                            <ul class="d-flex align-items-center g-10 justify-content-center">
+                              <li class="pointer" data-bs-toggle="modal"
+                              data-bs-target="#phone"><i class="text-41 fa-solid fa-phone"></i></li>
+                              <li class="pointer" data-bs-toggle="modal"
+                              data-bs-target="#email"><i class="text-41 fa-solid fa-envelope"></i></li>
+                              <li class="pointer" data-bs-toggle="modal"
+                              data-bs-target="#messenger"><i class="text-e4b fa-solid fa-comment-dots"></i></li>
+                              <li class="pointer" data-bs-toggle="modal"
+                              data-bs-target="#video"><i class="text-b4 fa-solid fa-video"></i></li>
+                            </ul>
+                          </td>
+                          <td class="text-center">
+                            <p>04 May 2024</p>
+                            <p>09:21 AM</p>
+                          </td>
+                          <td class="text-center">
+                            Unused
+                          </td>
+                          <td class="text-center">
+                            <span class="status-icon-checked"><i class=" fa-solid fa-circle-check"></i></span>
+                          </td>
+                          <td class="text-center">
+                            <div class="form-group form-group-sm w-100 position-relative">
+                              <select class="form-control" >
+                                <option>Attempted</option>
+                                <option>Attempted</option>
+                                <option>Attempted</option>
+                              </select>
+                              <span class="angle"
+                                ><i class="fa-solid fa-angle-down"></i
+                              ></span>
+                            </div>
+                            <ul class="d-flex align-items-center justify-content-center g-10 mt-1">
+                              <li class="w-50 bg-EB">60 m</li>
+                              <li class="w-50 bg-EB">6 m</li>
+                            </ul>
+                          </td>
+                          <td class="text-center">
+                            <p>Andrew</p>
+                          </td>
+                          <td class="text-center">
+                            <p>Brandon</p>
+                          </td>
+                          <td class="text-center">
+                            <p>Accord</p>
+                          </td>
+                          <td class="text-center">
+                            <p>Accord</p>
+                          </td>
+                          <td class="text-center">
+                            <p>2025</p>
+                          </td>
+                          <td class="text-center">
+                            <p class="checked-value"><i class="fa-solid fa-square-check"></i></p>
+                          </td>
+                          <td class="text-center">
+                            <p class="unchecked-value"><i class="fa-solid fa-square"></i></p>
+                          </td>
+                         </tr>
+                         
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="modal-section">
+      <!--start phone Modal -->
+      <div
+        class="modal fade bg-gradient-add"
+        id="phone"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div
+              class="modal-header-area d-flex align-items-center justify-content-between"
+            >
+              <h4 class="title-sm">Title Here ...</h4>
+              <div class="modal-close-btn pointer">
+                <span data-bs-dismiss="modal" aria-label="Close">
+                  <i class="fas fa-times"></i>
+                </span>
+              </div>
+            </div>
+            <div class="modal-body-inner mt-3">
+              <form action="">
+                <div class="d-flex flex-column g-15">
+                  <div class="form-group">
+                    <label
+                      for="exampleInputEmail1"
+                      class="label text-dark-night"
+                      >Email
+                    </label>
+                    <input
+                      type="email"
+                      class="form-control input bg-transparent"
+                      id="exampleInputEmail1"
+                      aria-describedby="emailHelp"
+                      placeholder="nextbit1212@gmail.com"
+                    />
+                  </div>
+                  <div class="form-group">
+                    <label
+                      for="exampleInputPassword1"
+                      class="label text-dark-night"
+                      >Password</label
+                    >
+                    <input
+                      type="password"
+                      class="form-control w-100 input bg-transparent"
+                      id="exampleInputPassword1"
+                      value="dfjsdkfds"
+                    />
+                  </div>
+                  <div class="form-group w-100 position-relative">
+                    <label for="Role" class="label text-dark-night">Role</label>
+                    <select class="form-control bg-transparent" id="Role">
+                      <option>Select a Role</option>
+                      <option>Superuser</option>
+                      <option>Admin</option>
+                      <option>User</option>
+                    </select>
+                    <span class="angle"
+                      ><i class="fa-solid fa-angle-down"></i
+                    ></span>
+                  </div>
+
+                  <div
+                    class="d-flex align-items-center g-10 modal-footer-area mt-2 justify-content-end"
+                  >
+                    <button
+                      class="outline-btn"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    >
+                      Cancel
+                    </button>
+                    <button type="submit" class="primary-btn">
+                      Create User
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end phone modal -->
+       <!--start email Modal -->
+      <div
+      class="modal fade bg-gradient-add"
+      id="email"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div
+            class="modal-header-area d-flex align-items-center justify-content-between"
+          >
+            <h4 class="title-sm">Title Here ... Email</h4>
+            <div class="modal-close-btn pointer">
+              <span data-bs-dismiss="modal" aria-label="Close">
+                <i class="fas fa-times"></i>
+              </span>
+            </div>
+          </div>
+          <div class="modal-body-inner mt-3">
+            <form action="">
+              <div class="d-flex flex-column g-15">
+                <div class="form-group">
+                  <label
+                    for="exampleInputEmail1"
+                    class="label text-dark-night"
+                    >Email
+                  </label>
+                  <input
+                    type="email"
+                    class="form-control input bg-transparent"
+                    id="exampleInputEmail1"
+                    aria-describedby="emailHelp"
+                    placeholder="nextbit1212@gmail.com"
+                  />
+                </div>
+                <div class="form-group">
+                  <label
+                    for="exampleInputPassword1"
+                    class="label text-dark-night"
+                    >Password</label
+                  >
+                  <input
+                    type="password"
+                    class="form-control w-100 input bg-transparent"
+                    id="exampleInputPassword1"
+                    value="dfjsdkfds"
+                  />
+                </div>
+                <div class="form-group w-100 position-relative">
+                  <label for="Role" class="label text-dark-night">Role</label>
+                  <select class="form-control bg-transparent" id="Role">
+                    <option>Select a Role</option>
+                    <option>Superuser</option>
+                    <option>Admin</option>
+                    <option>User</option>
+                  </select>
+                  <span class="angle"
+                    ><i class="fa-solid fa-angle-down"></i
+                  ></span>
+                </div>
+
+                <div
+                  class="d-flex align-items-center g-10 modal-footer-area mt-2 justify-content-end"
+                >
+                  <button
+                    class="outline-btn"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  >
+                    Cancel
+                  </button>
+                  <button type="submit" class="primary-btn">
+                    Create User
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end email modal -->
+       <!--start messenger Modal -->
+      <div
+      class="modal fade bg-gradient-add"
+      id="messenger"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div
+            class="modal-header-area d-flex align-items-center justify-content-between"
+          >
+            <h4 class="title-sm">Title Here ... Messenger</h4>
+            <div class="modal-close-btn pointer">
+              <span data-bs-dismiss="modal" aria-label="Close">
+                <i class="fas fa-times"></i>
+              </span>
+            </div>
+          </div>
+          <div class="modal-body-inner mt-3">
+            <form action="">
+              <div class="d-flex flex-column g-15">
+                <div class="form-group">
+                  <label
+                    for="exampleInputEmail1"
+                    class="label text-dark-night"
+                    >Email
+                  </label>
+                  <input
+                    type="email"
+                    class="form-control input bg-transparent"
+                    id="exampleInputEmail1"
+                    aria-describedby="emailHelp"
+                    placeholder="nextbit1212@gmail.com"
+                  />
+                </div>
+                <div class="form-group">
+                  <label
+                    for="exampleInputPassword1"
+                    class="label text-dark-night"
+                    >Password</label
+                  >
+                  <input
+                    type="password"
+                    class="form-control w-100 input bg-transparent"
+                    id="exampleInputPassword1"
+                    value="dfjsdkfds"
+                  />
+                </div>
+                <div class="form-group w-100 position-relative">
+                  <label for="Role" class="label text-dark-night">Role</label>
+                  <select class="form-control bg-transparent" id="Role">
+                    <option>Select a Role</option>
+                    <option>Superuser</option>
+                    <option>Admin</option>
+                    <option>User</option>
+                  </select>
+                  <span class="angle"
+                    ><i class="fa-solid fa-angle-down"></i
+                  ></span>
+                </div>
+
+                <div
+                  class="d-flex align-items-center g-10 modal-footer-area mt-2 justify-content-end"
+                >
+                  <button
+                    class="outline-btn"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  >
+                    Cancel
+                  </button>
+                  <button type="submit" class="primary-btn">
+                    Create User
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end messenger modal -->
+       <!--start Video Modal -->
+      <div
+      class="modal fade bg-gradient-add"
+      id="video"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div
+            class="modal-header-area d-flex align-items-center justify-content-between"
+          >
+            <h4 class="title-sm">Title Here ... Video</h4>
+            <div class="modal-close-btn pointer">
+              <span data-bs-dismiss="modal" aria-label="Close">
+                <i class="fas fa-times"></i>
+              </span>
+            </div>
+          </div>
+          <div class="modal-body-inner mt-3">
+            <form action="">
+              <div class="d-flex flex-column g-15">
+                <div class="form-group">
+                  <label
+                    for="exampleInputEmail1"
+                    class="label text-dark-night"
+                    >Email
+                  </label>
+                  <input
+                    type="email"
+                    class="form-control input bg-transparent"
+                    id="exampleInputEmail1"
+                    aria-describedby="emailHelp"
+                    placeholder="nextbit1212@gmail.com"
+                  />
+                </div>
+                <div class="form-group">
+                  <label
+                    for="exampleInputPassword1"
+                    class="label text-dark-night"
+                    >Password</label
+                  >
+                  <input
+                    type="password"
+                    class="form-control w-100 input bg-transparent"
+                    id="exampleInputPassword1"
+                    value="dfjsdkfds"
+                  />
+                </div>
+                <div class="form-group w-100 position-relative">
+                  <label for="Role" class="label text-dark-night">Role</label>
+                  <select class="form-control bg-transparent" id="Role">
+                    <option>Select a Role</option>
+                    <option>Superuser</option>
+                    <option>Admin</option>
+                    <option>User</option>
+                  </select>
+                  <span class="angle"
+                    ><i class="fa-solid fa-angle-down"></i
+                  ></span>
+                </div>
+
+                <div
+                  class="d-flex align-items-center g-10 modal-footer-area mt-2 justify-content-end"
+                >
+                  <button
+                    class="outline-btn"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  >
+                    Cancel
+                  </button>
+                  <button type="submit" class="primary-btn">
+                    Create User
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end Video modal -->
+    </div>
+    <section class="footer-section">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="footer">
+              <ul class="d-flex align-items-center justify-content-center g-10">
+                <li><p>&copy;Copyright 2025</p></li>
+                <li><p>||</p></li>
+                <li><p>Version V.1</p></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

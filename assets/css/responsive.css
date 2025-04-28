@@ -1,0 +1,82 @@
+@media screen and (min-width: 1280px) {
+}
+@media screen and (max-width: 1280px) {
+}
+@media screen and (max-width: 1199px) {
+}
+@media screen and (max-width: 991px) {
+  .login-right-inner {
+    padding: 0;
+  }
+  .login-right-area {
+    width: 100%;
+    padding: 30px;
+  }
+  .login-left-area {
+    display: none !important;
+  }
+  .mobile-logo {
+    display: block;
+    margin-top: -30px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #fff;
+    width: 100%;
+    text-align: center;
+  }
+  .mobile-bar {
+    display: block;
+    position: relative;
+    z-index: 999;
+    background: #9f8cfc;
+    border-radius: 5px;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    color: #fff;
+  }
+
+  /* nav */
+
+  .header-nav ul {
+    flex-direction: column;
+    position: absolute;
+    background: #56368f;
+    height: 100vh;
+    width: 275px;
+    left: -100%;
+    padding-top: 60px;
+    transition: 0.5s;
+  }
+  .mobile-menu ul {
+    left: 0%;
+    transition: 0.5s;
+  }
+  .header-nav {
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 80%;
+  }
+  .header-nav ul li a i {
+    color: #fff;
+  }
+  .header-nav ul li a {
+    color: #fff;
+  }
+  .header-nav ul li {
+    width: 92%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .login-heading h3 {
+    font-size: 30px;
+  }
+  .dashboard-logo h6 {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 480px) {
+}
